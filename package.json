@@ -4,15 +4,19 @@
   "description": "Fun with promises",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "serve": "node index.js"
   },
   "author": "mikhama",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^7.1.2",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.31.0",
-    "json-server": "^1.0.0-beta.3",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
     "webpack": "^5.99.5",
@@ -32,6 +36,7 @@
     "http-status-emojis": "^2.2.0",
     "inflection": "^3.0.2",
     "ipaddr.js": "^2.2.0",
+    "json-server": "^0.17.3",
     "json5": "^2.2.3",
     "lowdb": "^7.0.1",
     "milliparsec": "^4.0.0",
