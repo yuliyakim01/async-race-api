@@ -4,11 +4,61 @@
   "description": "Fun with promises",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "serve": "node index.js"
   },
   "author": "mikhama",
   "license": "MIT",
   "devDependencies": {
-    "json-server": "^0.16.3"
-  }
+    "css-loader": "^7.1.2",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "chalk": "^5.4.1",
+    "chokidar": "^4.0.3",
+    "colorette": "^2.0.20",
+    "dayjs": "^1.11.13",
+    "dot-prop": "^9.0.0",
+    "es-escape-html": "^0.1.1",
+    "eta": "^3.5.0",
+    "header-range-parser": "^1.1.3",
+    "http-status-emojis": "^2.2.0",
+    "inflection": "^3.0.2",
+    "ipaddr.js": "^2.2.0",
+    "json-server": "^0.17.3",
+    "json5": "^2.2.3",
+    "lowdb": "^7.0.1",
+    "milliparsec": "^4.0.0",
+    "mime": "^4.0.4",
+    "mrmime": "^2.0.1",
+    "negotiator": "^0.6.4",
+    "readdirp": "^4.1.2",
+    "regexparam": "^2.0.2",
+    "sirv": "^2.0.4",
+    "sort-on": "^6.1.0",
+    "steno": "^4.0.2",
+    "totalist": "^3.0.1",
+    "type-fest": "^4.39.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliyakim01/async-race-api.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yuliyakim01/async-race-api/issues"
+  },
+  "homepage": "https://github.com/yuliyakim01/async-race-api#readme"
 }
